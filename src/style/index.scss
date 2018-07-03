@@ -1,0 +1,95 @@
+$bg: pink;
+$tr: translate(-50%);
+$wth: 100px;
+
+.logContainer{
+      form {
+          div {
+            margin: 10px;
+          }
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  margin: 200px auto;
+  width: $wth*3;
+  height: 300px;
+  padding: 30px;
+  background: $bg;
+  border-radius: 15%;
+  position: relative;
+}
+
+.sendRow{
+    input,select,button{
+      margin: 5px;
+      border-radius: 15px;
+    }
+  position: absolute;
+  top: 100px;
+  left:50%;
+  transform: $tr;
+}
+
+.tableRow{
+  div{
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+  }
+  width: $wth*3;
+}
+
+.headerRow{
+  div{
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+  }
+  border-bottom: 1px solid black;
+}
+
+.logButton{
+  display: block;
+  width: $wth;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+
+.sendContainer{
+  width: $wth*8;
+  height: 500px;
+  margin: 50px auto;
+  background: $bg;
+  position: relative;
+  border-radius: 15%;
+}
+
+.navBarContainer{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: $tr;
+}
+
+.deleteButton{
+  border-radius: 15px;
+}
+
+.headerNumber{
+  width: $wth*0.2;
+}
+
+.headerTransaction{
+  width: $wth;
+}
+
+.table{
+  position: absolute;
+  top: 100px;
+  left:50%;
+  transform: $tr;
+  border: 1px solid black;
+}
